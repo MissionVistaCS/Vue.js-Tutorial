@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Installing Vue.js with a CDN</title>
+
+    <!-- developmental version that has console warnings -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+  </head>
+
+  <body>
+    
+   <!-- will be covered later -->
+    <div id="app">
+      {{ message }}
+    </div>
+
+    
+    <!-- this is where the Vue.js logic will be held -->
+    <script>
+      let app = new Vue({
+        el: "#app",
+        data: {
+          message: 'Hello Vue!'
+        }
+      });
+    </script>
+
+  </body>
+</html>

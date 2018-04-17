@@ -4,3 +4,5 @@ Refers to Chapter 1: Getting Started
 	  Example A: Installing through a CDN
 
 Description: We learn to use and play around with Vue.js by referencing the Vue.js Content Delivery Network (CDN) inside a <script> tag.
+
+References: Vue.js Official Documentation on Installation - https://vuejs.org/v2/guide/installation.html
