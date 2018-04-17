@@ -1,3 +1,12 @@
 # Vue.js Tutorial
-***
-## A tutorial for the popular front-end framework Vue.js written for the Mission Vista Web Programming Course 4/16/18
+
+A short, concise tutorial on the popular front-end framework Vue.js. Written for the Mission Vista High School Web Programming course.
+
+## Table of Contents
+1. [Getting Started](#introduction)
+2. 
+
+
+### Introduction Example <a name="introduction"></a>
+
+
