@@ -1,0 +1,4 @@
+Template: Webpack-Simple
+This is a simple webpack template used for quick prototyping. 
+
+References: Github Repo - https://github.com/vuejs-templates/webpack-simple

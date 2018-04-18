@@ -14,7 +14,7 @@ A short, concise tutorial on the popular front-end framework Vue.js. Written for
  Vue.js is the  Javascript framework. In this section, we will go over the core concepts to and understand and use Vue.js.
  
  #### Installation and Usage <a name="installation"></a>
- Vue.js is tremendously simple to install and use. Although we will be using the Vue command line interface (vue-cli), you can get started with Vue in a few different ways.
+ Vue.js is tremendously simple to install and use. Although we will be using the Vue command line interface (vue-cli), you can get started with Vue in 3 different ways.
  
  **CDN:** <br>
  Import Vue.js into your `index.html` file using the `<script>` tag. <br>

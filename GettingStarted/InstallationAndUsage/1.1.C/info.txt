@@ -3,10 +3,12 @@ Refers to Chapter 1: Getting Started
 	  Section 1: Installation and Usage
 	  Example C: Installing using the Vue Command Line Interface (vue-cli)
 
-Description: We learn to use and play around with Vue.js by setting up a work flow with the vue-cli. 
+Description: We learn how to install different Vue.js templates and how which one is used
 
-Steps: We create a basic work flow by using the vue-cli
-1. in the console: npm install -g vue-cli
+Steps: We create a basic work flow by using the vue-cli. There are many templates to choose from.
+In the console:
+1. npm install -g vue-cli
+2. vue init <template-name> <project-name>
 
 References: Vue.js Official Documentation on Installation - https://vuejs.org/v2/guide/installation.html
 	    NPM Vue-CLI - https://www.npmjs.com/package/vue-cli
