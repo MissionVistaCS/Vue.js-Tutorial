@@ -78,7 +78,16 @@ Declarative Rendering basically means that Vue.js hooks up the data from our `<s
 ``` bash
 app.message
 ```
-This should output: ```html Hello Vue! ```
+This should output: 
+```html 
+Hello Vue! 
+```
+
+You can also *set* the data of your Vue app and it will update reactively.
+``` bash
+app.message = "Vue is cool!"
+```
+This should dynamically change the webpage.
 
 
 
