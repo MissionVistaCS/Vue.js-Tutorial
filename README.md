@@ -27,7 +27,7 @@ Import Vue.js into your `index.html` file using the `<script>` tag. <br>
 <br>
 **NPM:** <br>
 Start by creating a project with npm
-``` bash 
+```bash 
 	$ npm init -y
 ```
 <br>
