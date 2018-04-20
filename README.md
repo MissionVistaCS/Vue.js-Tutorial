@@ -12,6 +12,7 @@ A short, concise tutorial on the popular front-end framework Vue.js. Written for
 
 5. [Resources](#resources)
 
+
 ### Getting Started  
  Vue.js is the  Javascript framework. In this section, we will start off with installing and getting exposed to Vue.js
  
@@ -67,14 +68,16 @@ Ex:
 **JSFiddle:**  
  You can play around with Vue.js in JSFiddle's [Hello World Example](https://jsfiddle.net/chrisvfritz/50wL7mdz/)
 
+
 ### Basics  
 In this section, we will learn about the basics of Vue: basic directory structure, syntax, and v-directives.  
+
 #### Syntax
 #### Basic Directory Structure
 #### V-Directives 
 Vue.js uses an attribute called v-directives, similar to [Angular's](https://angular.io/) ng-directives. They allow us to retrieve, bind, show, and other actions to our data.   
 
-**Declarative Rendering:** [To Github Section]()
+**Declarative Rendering:** [To Github Section]()  
 Declarative Rendering basically means that Vue.js hooks up the data from our `<script>` tag to the DOM. To prove this, run the provided example and in the browser console type: 
 ``` bash
 app.message
