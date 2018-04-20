@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Installing Vue.js with a CDN</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+  </head>
+
+  <body>
+    
+    <!-- determines whether the HTML is to be rendered -->
+    <div id="app">
+      <span v-if="seen">Now you see me</span>  <!-- type app3.seen = false in the console -->
+    </div>
+
+    <!-- using conditionals and chaining them -->
+    <div id="app3">
+      <span v-if="random < 5"> {{random}} Small</span>
+      <span v-else-if="random === 5"> {{random}} Perfect </span>
+      <span v-else> {{random}} Large </span>
+    </div>
+
+    <!-- loops through like a for in loop -->
+    <div id="app2">
+      <ol>
+	<li v-for="todo in todos">
+	  {{ todo.text }}
+	</li>
+      </ol>
+    </div>
+
+
+    <script>
+      new Vue({
+        el: "#app",  
+        data: {
+            seen: true
+        }
+      });
+      
+      new Vue({
+        el: "#app3",
+        data: {
+          random: Math.floor(Math.random() * 10)
+        }
+      });
+
+      new Vue({
+        el: '#app2',
+        data: {
+          todos: [
+            { text: "Vue" },
+            { text: "Is"  },
+            { text: "Fun" }
+          ]
+        }
+
+      });
+
+    </script>
+
+  </body>
+</html>

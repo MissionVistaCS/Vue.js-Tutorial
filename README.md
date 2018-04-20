@@ -1,6 +1,6 @@
 # Vue.js Tutorial
 
-A short, concise tutorial on the popular front-end framework Vue.js. Written for the Mission Vista High School Web Programming course.
+A short, concise tutorial on the popular front-end framework Vue.js. Written for the Mission Vista High School Web Programming course. ***Not every directory in the repo will be accounted for here... make sure to poke around in the repo for more information***
 
 ## Table of Contents
 1. [Getting Started](#getting-started)
@@ -75,7 +75,7 @@ In this section, we will learn about the basics of Vue: basic directory structur
 #### Syntax
 #### Basic Directory Structure
 #### V-Directives 
-Vue.js uses an attribute called v-directives, similar to [Angular's](https://angular.io/) ng-directives. They allow us to retrieve, bind, show, and other actions to our data.   
+Vue.js uses an attribute called v-directives, similar to [Angular's](https://angular.io/) ng-directives. They allow us to retrieve, bind, show, and other actions to our data. With every new v-directive demonstrated, make sure to test out its data binding by trying it out in the console.
 
 **Declarative Rendering:** [To Github Section]()  
 Declarative Rendering basically means that Vue.js hooks up the data from our `<script>` tag to the DOM. To prove this, run the provided example and in the browser console type: 

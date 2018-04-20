@@ -1,0 +1,9 @@
+This project: 2.3.C
+Refers to Chapter 2: Basics
+       	  Section 3: V-Directives
+	  Example C: Conditionals and Loops
+
+Description: Discover how data can be easily manipulated due to Vue's two way data binding. With this, conditionals and loops are easily implemented.
+
+Reference: Conditionals Intro - https://vuejs.org/v2/guide/index.html#Conditionals-and-Loops
+	   Conditionals Intermediate - https://vuejs.org/v2/guide/conditional.html
