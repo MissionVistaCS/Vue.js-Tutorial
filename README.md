@@ -17,15 +17,15 @@ A short, concise tutorial on the popular front-end framework Vue.js. Written for
  Vue.js is tremendously simple to install and use. Although we will be using the Vue command line interface (vue-cli), you can get started with Vue in 3 different ways.
  
 **CDN:** <br>
-Import Vue.js into your `index.html` file using the `<script>` tag. <br>
+Import Vue.js into your `index.html` file using the `<script>` tag.  
 
 ```html
 <!-- development version with alarms and alerts -->
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 ```
 
-<br>
-**NPM:** <br>
+  
+**NPM:**  
 Start by creating a project with npm
 ```bash 
 	$ npm init -y
