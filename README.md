@@ -71,7 +71,7 @@ In this section, we will learn about the basics of Vue: basic directory structur
 #### Syntax
 #### Basic Directory Structure
 #### V-Directives 
-Vue.js uses an attribute called v-directives, similar to [Angular's](https://angular.io/) ng-directives. They allow us to retrieve, bind, show, and other actions to our data.   
+Vue.js uses an attribute called v-directives, similar to [Angular's](https://angular.io/) ng-directives. They allow us to retrieve, bind, show, and other actions to our data.      
 **Declarative Rendering:** [To Github Section]()
 
 
