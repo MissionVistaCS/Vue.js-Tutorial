@@ -71,8 +71,14 @@ In this section, we will learn about the basics of Vue: basic directory structur
 #### Syntax
 #### Basic Directory Structure
 #### V-Directives 
-Vue.js uses an attribute called v-directives, similar to [Angular's](https://angular.io/) ng-directives. They allow us to retrieve, bind, show, and other actions to our data.      
+Vue.js uses an attribute called v-directives, similar to [Angular's](https://angular.io/) ng-directives. They allow us to retrieve, bind, show, and other actions to our data.   
+
 **Declarative Rendering:** [To Github Section]()
+Declarative Rendering basically means that Vue.js hooks up the data from our `<script>` tag to the DOM. To prove this, run the provided example and in the browser console type: 
+``` bash
+app.message
+```
+This should output: ```html Hello Vue! ```
 
 
 
