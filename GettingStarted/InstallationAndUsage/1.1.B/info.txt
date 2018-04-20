@@ -1,7 +1,7 @@
 This project: 1.1.B
 Refers to Chapter 1: Getting Started
        	  Section 1: Installation and Usage
-	  Example A: Installing through NPM
+	  Example B: Installing through NPM
 
 Description: We learn to play around with Vue.js by referencing the Vue.js downloaded file inside a <script> tag. This is recommended for large scale applications. It pairs nicely with module bundlers like Webpack (will go over this later).
 

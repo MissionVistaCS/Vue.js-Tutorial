@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Installing Vue.js with a CDN</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+  </head>
+
+  <body>
+    
+   <!-- this is where all of our templating will be held -->
+    <div id="app">
+      {{ message }}
+    </div>
+
+    
+    <!-- this is where the Vue.js logic will be held -->
+    <script>
+      let app = new Vue({  // create a new Vue instance
+        el: "#app",        // connects our script logic to the templating/HTML
+        data: {            // where all of our data is held
+          message: 'Hello Vue!'
+        }
+      });
+    </script>
+
+  </body>
+</html>
