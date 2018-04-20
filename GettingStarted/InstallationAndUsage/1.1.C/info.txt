@@ -3,12 +3,13 @@ Refers to Chapter 1: Getting Started
 	  Section 1: Installation and Usage
 	  Example C: Installing using the Vue Command Line Interface (vue-cli)
 
-Description: We learn how to install different Vue.js templates and how which one is used. In this folder, I have 3 examples of the most used Vue.js templates.
+Description: We learn how to install different Vue.js templates and how which one is used. In this folder, I have 2 examples of the most used Vue.js templates.
 
 Steps: We create a basic work flow by using the vue-cli. There are many templates to choose from.
 In the console:
 1. npm install -g vue-cli
 2. vue init <template-name> <project-name>
+       Ex: vue init webpack vuejsfun
 
 We can also get download templates in two ways:
 1. Fork a template on github and in the console:

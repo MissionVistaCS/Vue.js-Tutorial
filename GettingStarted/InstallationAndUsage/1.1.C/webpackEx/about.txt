@@ -1,8 +1,14 @@
 Simple Directory Structure:
 This is the full webpack template
 
+Steps: (we will go more in depth later)
+1. in the console:
+		 npm install (if you haven't already)
+		 npm run dev (runs vue in developer mode)
+
 
 
 References: General Overview of the template - https://vuejs-templates.github.io/webpack
 	    Directory Structure - http://vuejs-templates.github.io/webpack/structure.html
+	    Docs for the Vue Loader - https://vue-loader.vuejs.org
 	    

@@ -5,7 +5,5 @@ Refers to Chapter 1: Getting Started
 
 Description: We learn to play around with Vue.js by referencing the Vue.js downloaded file inside a <script> tag. This is recommended for large scale applications. It pairs nicely with module bundlers like Webpack (will go over this later).
 
-Steps: 
-1. In the console type: npm install vue
 
 References: Vue.js Official Documentation - https://vuejs.org/v2/guide/installation.html

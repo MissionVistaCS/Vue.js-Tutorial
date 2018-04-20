@@ -19,10 +19,11 @@ A short, concise tutorial on the popular front-end framework Vue.js. Written for
  **CDN:** <br>
  Import Vue.js into your `index.html` file using the `<script>` tag. <br>
  
- ```
+ ``` html
  <!-- development version with alarms and alerts -->
  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
  ```
+
  
  <br>
  **JSFiddle:** <br>

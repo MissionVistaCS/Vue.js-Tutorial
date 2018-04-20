@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vue with NPM</title>
+  </head>
+
+  <body>
+    <script src="node_modules/dist/vue/vue.js"></script>
+
+    <div id="app">
+      {{ hello }}
+    </div>
+
+    <script>
+      let app = new Vue({
+        el: '#app',
+        data: {
+          hello: "Hello Vue!"
+        }
+      });
+  </body>
+</html>

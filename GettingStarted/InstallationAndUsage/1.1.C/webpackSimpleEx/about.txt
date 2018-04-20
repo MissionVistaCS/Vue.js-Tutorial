@@ -3,8 +3,10 @@ This is a simple webpack template used for quick prototyping.
 
 Steps: To run the application:
 1. get into this directory
-2. npm install if you have not (may need to install cross-env)
-3. npm run dev (we will go over what this means later) 
+2. ín the console: 
+      	  	  npm install (if you haven't already)
+		  npm run dev (will go over this later)
 
 
 References: Github Repo - https://github.com/vuejs-templates/webpack-simple
+	    Docs for Vue Loader - https://vue-loader.vuejs.org
