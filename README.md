@@ -7,8 +7,9 @@ A short, concise tutorial on the popular front-end framework Vue.js. Written for
    + [Installation and Usage](#installation-and-usage)
 2. [Basics](#basics)
     + [Syntax](#syntax)
-    + [V-Directives](#v-directives)
     + [Basic Directory Structure](#basic-directory-structure)
+    + [V-Directives](#v-directives)
+
 5. [Resources](#resources)
 
 ### Getting Started  
