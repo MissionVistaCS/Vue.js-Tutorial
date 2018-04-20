@@ -105,4 +105,5 @@ This should dynamically change the webpage.
 ### Resources  
  Vue.js is one of the better documented frameworks out there. Regardless, I have compiled a list of my favorite Vue.js documentations/tutorials while writing this tutorial.
    + **[Vue.js Official Documentation](https://vuejs.org/)**
+   + [6 Best Vue.js Tutorials](https://medium.com/quick-code/top-tutorials-to-learn-vue-js-for-beginners-6c693e41091d)
     

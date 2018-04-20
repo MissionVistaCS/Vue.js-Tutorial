@@ -1,0 +1,8 @@
+This project: 2.3.B
+Refers to Chapter 2: Basics
+       	  Section 3: V-Directives
+	  Example B: Bind
+
+Description: discover the usage for the bind directive: binding one or more attributes 
+
+References: Bind Directive Documentation - https://vuejs.org/v2/api/#v-bind

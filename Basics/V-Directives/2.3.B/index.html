@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Installing Vue.js with a CDN</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+  </head>
+
+  <body>
+    
+    <!-- dynamically bind different messages to the title when you hover over text -->
+    <div id="app">
+      <span v-bind:title="message">
+	Hover your mouse over me for a few seconds
+	to see my dynamically bound title!
+      </span>
+    </div>
+
+
+    <!-- dynamically bind different paths to an image -->
+    <div id="app2">
+      <img src='imageSrc'></img>
+    </div>
+
+    <!-- dynamically bind different ids to a div -->
+    <div id='app3'>
+      <div v-bind:id="dynamicId"></div>
+    </div>
+
+
+    <!-- dynamically bind different booleans in the case of a button -->
+    <div id='app4'>
+      <div v-bind:disabled="isButtonDisabled">Button</div>
+    </div>
+
+    
+    <!-- this is where the Vue.js logic will be held -->
+    <script>
+    // demonstrates usage of multiple Vue instances
+
+      new Vue({
+        el: "#app",  
+        data: {     
+          message: 'You loaded this page on ' + new Date().toLocaleString()
+        }
+      });
+
+      new Vue({
+        el: '#app2',
+        data: {
+          imageSrc: 'https://www.example.com'
+        }
+      });
+
+      new Vue({
+        el: '#app3',
+        data: {
+        id: 'someId'
+        }
+      });
+
+      new Vue({
+        el: '#app4',
+        data: {
+
+          isButtonDisabled: false // can be null or undefined
+        }
+      });
+
+    </script>
+
+  </body>
+</html>
