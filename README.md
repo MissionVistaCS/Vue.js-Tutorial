@@ -33,7 +33,7 @@ Start by creating a project with npm
 <br>
 
 Install Vue and save dependencies
-``` bash
+```bash
 	$ npm install -s vue
 ```
 <br>
@@ -50,7 +50,7 @@ Then in your `index.html` file reference vue with a `<script>` tag
 This is the method we will most often use. The Vue-CLI allows us to quickly create Single Page Applications with built in templates.
 Start by installing the Vue-CLI module from NPM
 
-``` bash
+```bash
 	$ sudo npm install -g vue-cli
 ```
 
@@ -62,7 +62,7 @@ Ex:
 
  <br>
  **JSFiddle:** <br>
- You can play around with Vue.js in [JSFiddle's Hello World Example](https://jsfiddle.net/chrisvfritz/50wL7mdz/)
+ You can play around with Vue.js in JSFiddle's [Hello World Example](https://jsfiddle.net/chrisvfritz/50wL7mdz/)
 
 
 
