@@ -18,20 +18,20 @@ A short, concise tutorial on the popular front-end framework Vue.js. Written for
  Vue.js is tremendously simple to install and use. Although we will be using the Vue command line interface (vue-cli), you can get started with Vue in 3 different ways.
  
 **CDN:** [To Github Section](https://github.com/MissionVistaCSClub/Vue.js-Tutorial/tree/master/GettingStarted/InstallationAndUsage/1.1.A)   
+
 Import Vue.js into your `index.html` file using the `<script>` tag.  
 
 ```html
 <!-- development version with alarms and alerts -->
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 ```
-
   
 **NPM:**  [To Github Section](https://github.com/MissionVistaCSClub/Vue.js-Tutorial/tree/master/GettingStarted/InstallationAndUsage/1.1.B)   
+
 Start by creating a project with npm
 ```bash 
 	$ npm init -y
 ```
-  
   
 Install Vue and save dependencies
 ```bash
@@ -48,6 +48,7 @@ Then in your `index.html` file reference vue with a `<script>` tag
   
   
 **Vue-CLI:**  [To Github Section](https://github.com/MissionVistaCSClub/Vue.js-Tutorial/tree/master/GettingStarted/InstallationAndUsage/1.1.C)   
+
 This is the method we will most often use. The Vue-CLI allows us to quickly create Single Page Applications with built in templates.
 Start by installing the Vue-CLI module from NPM
 
