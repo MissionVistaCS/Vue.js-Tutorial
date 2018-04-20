@@ -4,7 +4,7 @@ A short, concise tutorial on the popular front-end framework Vue.js. Written for
 
 ## Table of Contents
 1. [Getting Started](#getting-started)
-   + [Installation and Usage](#installation)
+   + [Installation and Usage](#installation-and-usage)
 2. [Basics](#basics)
 5. [Resources](#resources)
  
@@ -13,7 +13,7 @@ A short, concise tutorial on the popular front-end framework Vue.js. Written for
 ### Getting Started  
  Vue.js is the  Javascript framework. In this section, we will go over the core concepts to and understand and use Vue.js.
  
- #### Installation and Usage <a name="installation"></a>
+ #### Installation and Usage  
  Vue.js is tremendously simple to install and use. Although we will be using the Vue command line interface (vue-cli), you can get started with Vue in 3 different ways.
  
 **CDN:**  
