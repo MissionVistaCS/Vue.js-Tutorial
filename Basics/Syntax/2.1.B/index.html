@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Installing Vue.js with a CDN</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+  </head>
+
+  <body>
+    
+
+    <div id="app">
+      <!-- double curly braces interprets the data as plain text, not HTML -->
+      <p> Using curly braces: {{ rawHtml }} </p>
+      <p> Using v-html directive: <span v-html="rawHtml"></span></p>
+    </div>
+
+    
+    <!-- this is where the Vue.js logic will be held -->
+    <script>
+      let app = new Vue({ 
+        el: "#app",       
+        data: {        
+          rawHtml: '<span style="color:red">This should be red.</span>'
+        }
+      });
+    </script>
+
+  </body>
+</html>

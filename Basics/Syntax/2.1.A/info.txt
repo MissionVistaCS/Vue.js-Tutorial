@@ -1,0 +1,8 @@
+This project: 2.1.A
+Refers to Chapter 2: Basics
+       	  Section 1: Syntax
+	  Example A: Text Interpolations
+
+Description: Discover basic Vue.js syntax
+
+References: https://vuejs.org/v2/guide/syntax.html#Text

@@ -77,7 +77,7 @@ In this section, we will learn about the basics of Vue: basic directory structur
 #### V-Directives 
 Vue.js uses an attribute called v-directives, similar to [Angular's](https://angular.io/) ng-directives. They allow us to retrieve, bind, show, and other actions to our data. With every new v-directive demonstrated, make sure to test out its data binding by trying it out in the console.
 
-**Declarative Rendering:** [To Github Section]()  
+**Declarative Rendering:** [To Github Section](https://github.com/MissionVistaCSClub/Vue.js-Tutorial/tree/master/Basics/V-Directives/2.3.A)  
 Declarative Rendering basically means that Vue.js hooks up the data from our `<script>` tag to the DOM. To prove this, run the provided example and in the browser console type: 
 ``` bash
 app.message

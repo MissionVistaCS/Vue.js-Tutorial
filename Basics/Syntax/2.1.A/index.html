@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Installing Vue.js with a CDN</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+  </head>
+
+  <body>
+    
+
+    <div id="app">
+      <!-- the most basic form of data binding using double curly braces -->
+      <span> Message: {{ msg }}</span> <!-- the msg property will be replaced with the corresponding property on the data object -->
+    </div>
+
+    
+    <!-- this is where the Vue.js logic will be held -->
+    <script>
+      let app = new Vue({ 
+        el: "#app",       
+        data: {        
+          msg: 'This is interpolation!'
+        }
+      });
+    </script>
+
+  </body>
+</html>

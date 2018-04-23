@@ -1,0 +1,8 @@
+This project: 2.1.B
+Refers to Chapter 2: Basics
+       	  Section 1: Syntax
+	  Example B: Raw HTML
+
+Description: using a v-directive and curly braces to bind raw html
+
+References: https://vuejs.org/v2/guide/syntax.html#Raw-HTML
