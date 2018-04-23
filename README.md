@@ -73,6 +73,8 @@ Ex:
 In this section, we will learn about the basics of Vue: basic directory structure, syntax, and v-directives.  
 
 #### Syntax
+Vue.js has special syntax. In this section, we discover interpolations and basic data bindings related to Vue.js.
+
 #### Basic Directory Structure
 #### V-Directives 
 Vue.js uses an attribute called v-directives, similar to [Angular's](https://angular.io/) ng-directives. They allow us to retrieve, bind, show, and other actions to our data. With every new v-directive demonstrated, make sure to test out its data binding by trying it out in the console.
