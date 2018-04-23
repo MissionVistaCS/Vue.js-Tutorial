@@ -1,0 +1,9 @@
+This project: 2.2.A
+Refers to Chapter 2: Basics
+       	  Section 2: Basic Directory Structure
+	  Example A: Simple Structure
+
+Description: We discover the structure of the single page template we created
+
+Reference: Simple Template Github - https://github.com/vuejs-templates/simple
+	   
