@@ -105,8 +105,11 @@ In this section, we will learn about the basics of scaling up: components. In Vu
 #### Intro 
 Components are just reusable Vue instances with a name. Since they are reusable Vue instances, they accept the same properties like `data`, `computed`, and `methods`. The only exceptions are with options like `el`.
 
+**Nesting Components:** [To Github Section](https://github.com/MissionVistaCSClub/Vue.js-Tutorial/tree/master/Components/Intermediate/3.2.A)
+ 
+![Components Tree](https://vuejs.org/images/components.png)
 
-
+As seen in this image, we can nest components of our web page. We most often do this in medium to large-sized applications. However, we can do it on small sized applications to ensure order and clean code. 
 
 
 

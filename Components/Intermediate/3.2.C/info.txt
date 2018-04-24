@@ -1,0 +1,6 @@
+This project: 3.2.C
+Refers to Chapter 3: Components
+       	  Section 2: Intermediate
+	  Example C: Component CSS
+
+Description: How to "component"ize CSS in your Vue.js project

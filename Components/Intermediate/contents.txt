@@ -1,3 +1,5 @@
 Contents: 
 
-3.2.A - Nesting Components
+3.2.A - Nesting Global Components
+3.2.B - Nesting Local Components
+3.2.C - Component CSS
