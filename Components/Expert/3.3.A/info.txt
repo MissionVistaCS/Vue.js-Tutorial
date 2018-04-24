@@ -1,0 +1,6 @@
+This project: 3.3.A
+Refers to Chapter 3: Components
+       	  Section 3: Expert
+	  Example A: More Organization
+
+Description: Making components more organized in the file directory structure
