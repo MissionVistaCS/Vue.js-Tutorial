@@ -9,7 +9,8 @@ A short, concise tutorial on the popular front-end framework Vue.js. Written for
     + [Syntax](#syntax)
     + [Basic Directory Structure](#basic-directory-structure)
     + [V-Directives](#v-directives)
-
+3. [Components](#components)  
+   + [Intro](#intro)
 5. [Resources](#resources)
 
 
@@ -98,7 +99,11 @@ app.message = "Vue is cool!"
 This should dynamically change the webpage.
 
 
+### Components  
+In this section, we will learn about the basics of scaling up: components. In Vue.js, components are the way to easily reuse code. Components can split up pages or even make new HTML tags (will get into later).  
 
+#### Intro 
+Components are just reusable Vue instances with a name. Since they are reusable Vue instances, they accept the same properties like `data`, `computed`, and `methods`. The only exceptions are with options like `el`.
 
 
 

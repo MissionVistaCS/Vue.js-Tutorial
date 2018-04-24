@@ -1,0 +1,6 @@
+This project: 2.3.D
+Refers to Chapter 2: Basics
+       	  Section 3: V-Directives
+	  Example D: Two Way Data Binding
+
+Description: Discover two way data binding with the v-model directive.

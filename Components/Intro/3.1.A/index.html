@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Multiple Vue Instances</title>
+		<script src="https://unpkg.com/vue/dist/vue.js"></script>
+	</head>
+	<body>
+		<h1>Multiple Vue Instances</h1>
+
+		<div id="instance-one">
+			<h2>{{ title }} </h2>
+			<p> {{ greet }} </p>
+			<button v-on:click="changeTitle">Change Instance 2!</button>
+		</div>
+
+		<!-- we can have the same property/function in different instances -->
+
+		<div id="instance-two">
+			<h2> {{ title }} </h2>
+			<p> {{ greet }} </p>
+		</div>
+
+		<script src="app.js"></script>
+	</body>
+
+</html>

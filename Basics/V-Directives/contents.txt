@@ -3,4 +3,5 @@ Contents:
 2.3.A  - Declarative Rendering
 2.3.B -  Bind Directive
 2.3.C - Conditionals and Loops
+2.3.D - Two Way Data Binding
 

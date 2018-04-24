@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Two Way Data Binding</title>
+    <script src="https://unpkg.com/vue"></script>
+  </head>
+  <body>
+
+    <div id="app">
+      <input type="text" v-model="name"> <!-- models the input to the name property of the data object, changing it dynamically -->
+      <span> {{ name }} </span> <!-- outputs that -->
+      <label>Age:</label>
+      <input type="text" v-model="age"> <!-- same here -->
+      <span> {{ age }} </span>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
