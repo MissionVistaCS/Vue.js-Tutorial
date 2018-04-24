@@ -1,5 +1,7 @@
 <template>
 <!-- template for Vue to be rendered -->
+<!-- a Vue file is just an extension of a component -->
+<!-- represents the template property in the Vue.component() function -->
   <div id="app">
     <img src="./assets/logo.png">
     <h1>{{ msg }}</h1>
@@ -22,9 +24,12 @@
 
 <script>
 // script logic 
+
+// exporting an object so we can access data from this component
+// represents the second param in the original Vue.component() function
 export default {
-  name: 'app',
-  data () {
+  name: 'app',  // name of the component
+  data () {     // same as data: function()
     return {
       msg: 'Welcome to Your Vue.js App'
     }
@@ -33,7 +38,7 @@ export default {
 </script>
 
 <style>
-// style to be applied to all pages (since it's not scoped)
+/* style to be applied to all pages (since it's not scoped) */
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

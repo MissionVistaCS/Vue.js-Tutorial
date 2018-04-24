@@ -1,0 +1,6 @@
+This project: 3.1.C
+Refers to Chapter 3: Components
+       	  Section 1: Intro
+	  Example C: Components with .Vue files
+
+Description: We start to "component"ize our project by separating components into .vue files. We use the webpack-simple template.
