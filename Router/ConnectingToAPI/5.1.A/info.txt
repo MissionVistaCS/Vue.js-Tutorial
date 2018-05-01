@@ -1,0 +1,7 @@
+This project:
+
+
+
+
+Description: Connect the Vue.js frontend to a REST API using axios
+
